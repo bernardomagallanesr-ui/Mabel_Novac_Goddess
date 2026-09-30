@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mabel Novac Goddess | Haute Atelier - Reservar Citas</title>
+<!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind CSS Configuration -->
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#C59B27',
+              goldLight: '#E8B938',
+              goldSoft: '#F6EEDB',
+              charcoal: '#1C1819',
+              darkCard: '#211E22',
+              cream: '#FAF8F5',
+              linen: '#F6F3EE',
+              ruby: '#B93838',
+              rubySoft: '#FDF2F2',
+              borderLight: '#ECE6DC'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+<!-- Styles: Custom tweaks & luxury borders -->
+<style data-purpose="custom-decorations">
+    body {
+      background-color: #FAF8F5;
+      color: #1C1819;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .font-serif-luxury {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 4px;
+      width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: #D9D2C7;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-brand-cream text-[#2D2926] antialiased selection:bg-brand-goldSoft selection:text-brand-charcoal">
+<!-- BEGIN: MainHeader -->
+<header class="bg-white border-b border-brand-borderLight sticky top-0 z-40">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<!-- Logo and Brand Hallmark -->
+<div class="flex items-center gap-3">
+<div class="relative flex items-center justify-center w-10 h-10 rounded-full border border-brand-gold/40 text-brand-gold">
+<!-- Circular Shears/Scissors Icon -->
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24">
+<path d="M9.64 7.64c.23-.5.36-1.05.36-1.64 0-2.21-1.79-4-4-4S2 3.79 2 6s1.79 4 4 4c.59 0 1.14-.13 1.64-.36L10 12l-2.36 2.36C7.14 14.13 6.59 14 6 14c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4c0-.59-.13-1.14-.36-1.64L12 14l6.64 6.64c.63.63 1.65.63 2.28 0l1.41-1.41c.63-.63.63-1.65 0-2.28L9.64 7.64zM6 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm0 12c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm13.66-2.93l-5.66-5.66 5.66-5.66c.63-.63.63-1.65 0-2.28l-1.41-1.41c-.63-.63-1.65-.63-2.28 0L9.34 8.34l1.41 1.41L18.24 2.25l1.41 1.41-5.66 5.66 5.66 5.66-1.41 1.41z"></path>
+</svg>
+<span class="absolute -top-0.5 -right-0.5 w-2 h-2 rounded-full bg-brand-ruby"></span>
+</div>
+<div class="flex flex-col">
+<span class="text-sm font-bold tracking-[0.22em] uppercase text-brand-charcoal font-serif-luxury">Mabel Novac</span>
+<span class="text-[9px] tracking-[0.3em] uppercase text-brand-gold font-semibold -mt-0.5">Goddess Haute Atelier</span>
+</div>
+</div>
+<!-- Desktop Navigation Bar -->
+<nav aria-label="Navegación Primaria" class="hidden lg:flex items-center space-x-1">
+<a class="px-5 py-2 rounded-md bg-[#C59B27] text-white font-medium text-xs tracking-wider uppercase transition-all shadow-sm hover:bg-[#b08920]" href="#">
+            Reservar Citas
+          </a>
+<a class="px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-neutral-600 hover:text-brand-charcoal transition-colors" href="#">
+            Servicios &amp; Bonos
+          </a>
+<a class="px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-neutral-600 hover:text-brand-charcoal transition-colors" href="#">
+            Mis Citas
+          </a>
+<a class="px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-neutral-600 hover:text-brand-charcoal transition-colors" href="#">
+            Centros Atelier
+          </a>
+<a class="px-3.5 py-2 text-xs font-semibold tracking-wider uppercase text-neutral-600 hover:text-brand-charcoal transition-colors" href="#">
+            Contacto &amp; Concierge
+          </a>
+</nav>
+<!-- User Privé Actions -->
+<div class="flex items-center gap-4">
+<!-- Notification Bell -->
+<button aria-label="Notificaciones" class="relative p-2 text-neutral-500 hover:text-brand-charcoal transition-colors rounded-full hover:bg-neutral-100" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"></path>
+</svg>
+<span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-brand-gold"></span>
+</button>
+<!-- User Privé Profile Badge -->
+<div class="flex items-center gap-2 pl-2 border-l border-neutral-200">
+<div class="w-8 h-8 rounded-full bg-[#E5D7C5] border border-brand-gold/30 flex items-center justify-center text-xs font-serif font-bold text-neutral-800 shadow-inner">
+              CP
+            </div>
+<span class="text-xs font-medium text-neutral-700 hidden sm:inline-block">Client Privé</span>
+</div>
+</div>
+</div>
+</div>
+<!-- BEGIN: Contextual StatusBar -->
+<div class="bg-[#FAF8F5] border-t border-b border-brand-borderLight text-xs py-2.5 px-4 sm:px-6 lg:px-8">
+<div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-4">
+<!-- Left: Studio Location Selector & Indicators -->
+<div class="flex flex-wrap items-center gap-3">
+<!-- Studio Selector -->
+<button class="inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-brand-borderLight rounded-full text-neutral-800 hover:border-brand-gold transition-colors font-medium" type="button">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>Castellana Luxury</span>
+<span class="text-[10px] text-neutral-400 font-normal">Paseo de la Castellana 88, Madrid</span>
+<svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- Operating Status -->
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[11px] font-medium border border-emerald-200">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse"></span>
+            Abierto hoy hasta 20:30
+          </span>
+<!-- Privé Capacity Status -->
+<span class="hidden md:inline-flex items-center gap-1 text-[11px] text-neutral-500 bg-white/70 px-2 py-0.5 rounded-md border border-neutral-200/70">
+<svg class="w-3.5 h-3.5 text-neutral-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+            Aforo Privé: 6 Cabinas Activas
+          </span>
+</div>
+<!-- Right: Active Appointments Quicklink -->
+<a class="inline-flex items-center gap-2 text-neutral-700 hover:text-brand-charcoal text-xs font-semibold group ml-auto sm:ml-0" href="#">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>Mis citas activas</span>
+<span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-brand-ruby text-white text-[10px] font-bold">1</span>
+<svg class="w-3 h-3 text-neutral-400 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</a>
+</div>
+</div>
+<!-- END: Contextual StatusBar -->
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: MainContent -->
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10 space-y-8">
+<!-- BEGIN: PageTitle & Categories -->
+<section class="space-y-6" data-purpose="service-catalog-header">
+<!-- Title & Supertitle -->
+<div class="space-y-2">
+<div class="flex items-center gap-2">
+<span class="h-[1.5px] w-6 bg-brand-gold"></span>
+<span class="text-[11px] font-bold tracking-[0.25em] uppercase text-brand-gold">Reserva Concierge Online</span>
+</div>
+<h1 class="text-4xl md:text-5xl font-serif-luxury font-medium tracking-tight text-brand-charcoal">
+          Reservar Cita
+        </h1>
+<p class="text-sm md:text-base text-neutral-500 font-serif italic">
+          Atelier de Alta Peluquería, Spa Capilar y Barbería Clásica
+        </p>
+</div>
+<!-- Categories & Search Bar -->
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 pt-2">
+<!-- Filter Pills List -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 custom-scrollbar">
+<button class="whitespace-nowrap px-4 py-2 rounded-full text-xs font-medium border border-brand-borderLight bg-white text-neutral-600 hover:border-brand-charcoal transition-all" type="button">
+            Todos los Servicios
+          </button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full text-xs font-semibold bg-brand-charcoal text-white shadow-sm transition-all" type="button">
+            Estilismo &amp; Damas
+          </button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full text-xs font-medium border border-brand-borderLight bg-white text-neutral-600 hover:border-brand-charcoal transition-all" type="button">
+            Barbería &amp; Barba
+          </button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full text-xs font-medium border border-brand-borderLight bg-white text-neutral-600 hover:border-brand-charcoal transition-all" type="button">
+            Coloración Magistral
+          </button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full text-xs font-medium border border-brand-borderLight bg-white text-neutral-600 hover:border-brand-charcoal transition-all" type="button">
+            Tratamientos &amp; Spa Capilar
+          </button>
+</div>
+<!-- Integrated Search Bar -->
+<div class="relative min-w-[260px] lg:w-72">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-neutral-400">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<input class="w-full pl-9 pr-9 py-2 bg-white border border-brand-borderLight rounded-lg text-xs placeholder:text-neutral-400 focus:outline-none focus:ring-1 focus:ring-brand-gold focus:border-brand-gold text-neutral-800 shadow-sm" placeholder="Buscar ritual o servicio..." type="text"/>
+<div class="absolute inset-y-0 right-0 pr-2.5 flex items-center">
+<button aria-label="Filtros avanzados" class="p-1 text-neutral-400 hover:text-neutral-700" type="button">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PageTitle & Categories -->
+<!-- BEGIN: CalendarWeekStrip -->
+<section class="bg-white rounded-xl border border-brand-borderLight p-4 shadow-sm" data-purpose="weekly-calendar-selector">
+<!-- Calendar Header -->
+<div class="flex items-center justify-between pb-3 border-b border-neutral-100">
+<div class="flex items-center gap-2">
+<span class="text-xs font-bold uppercase tracking-wider text-brand-charcoal">Noviembre 2025</span>
+<span class="text-[10px] text-neutral-400 font-medium">| SEMANA 47</span>
+</div>
+<div class="flex items-center gap-3">
+<button class="inline-flex items-center gap-1.5 text-xs text-neutral-600 hover:text-brand-charcoal font-medium" type="button">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>Ver Mes Completo</span>
+</button>
+<div class="flex items-center gap-1">
+<button aria-label="Semana anterior" class="w-6 h-6 rounded border border-neutral-200 flex items-center justify-center text-neutral-500 hover:border-neutral-400" type="button">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<button aria-label="Semana siguiente" class="w-6 h-6 rounded border border-neutral-200 flex items-center justify-center text-neutral-500 hover:border-neutral-400" type="button">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Days Grid (7 Columns) -->
+<div class="grid grid-cols-7 gap-2 pt-3">
+<!-- Day 1 (Selected) -->
+<button class="bg-brand-charcoal text-white rounded-lg p-3 text-center flex flex-col items-center justify-center shadow transition-transform hover:scale-[1.02]" type="button">
+<span class="text-[9px] uppercase tracking-wider font-semibold text-brand-gold">Hoy</span>
+<span class="text-xl font-serif-luxury font-bold leading-tight">18</span>
+<span class="text-[10px] text-neutral-300">Mar</span>
+<span class="inline-flex items-center gap-1 text-[9px] text-brand-gold mt-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+            Disponible
+          </span>
+</button>
+<!-- Day 2 -->
+<button class="bg-neutral-50 hover:bg-neutral-100 border border-neutral-200/80 rounded-lg p-3 text-center flex flex-col items-center justify-center transition-all" type="button">
+<span class="text-[9px] uppercase tracking-wider font-medium text-neutral-500">Mié</span>
+<span class="text-xl font-serif-luxury font-bold text-neutral-800 leading-tight">19</span>
+<span class="text-[10px] text-neutral-400">Nov</span>
+<span class="text-[9px] text-neutral-500 mt-1">• 8 slots</span>
+</button>
+<!-- Day 3 -->
+<button class="bg-neutral-50 hover:bg-neutral-100 border border-neutral-200/80 rounded-lg p-3 text-center flex flex-col items-center justify-center transition-all" type="button">
+<span class="text-[9px] uppercase tracking-wider font-medium text-neutral-500">Jue</span>
+<span class="text-xl font-serif-luxury font-bold text-neutral-800 leading-tight">20</span>
+<span class="text-[10px] text-neutral-400">Nov</span>
+<span class="text-[9px] text-neutral-500 mt-1">• 6 slots</span>
+</button>
+<!-- Day 4 -->
+<button class="bg-neutral-50 hover:bg-neutral-100 border border-neutral-200/80 rounded-lg p-3 text-center flex flex-col items-center justify-center transition-all" type="button">
+<span class="text-[9px] uppercase tracking-wider font-medium text-neutral-500">Vie</span>
+<span class="text-xl font-serif-luxury font-bold text-neutral-800 leading-tight">21</span>
+<span class="text-[10px] text-neutral-400">Nov</span>
+<span class="text-[9px] text-neutral-500 mt-1">• 4 slots</span>
+</button>
+<!-- Day 5 (Ruby Notice) -->
+<button class="bg-brand-rubySoft/60 hover:bg-brand-rubySoft border border-brand-ruby/20 rounded-lg p-3 text-center flex flex-col items-center justify-center transition-all" type="button">
+<span class="text-[9px] uppercase tracking-wider font-semibold text-brand-ruby">Sáb</span>
+<span class="text-xl font-serif-luxury font-bold text-brand-ruby leading-tight">22</span>
+<span class="text-[10px] text-brand-ruby/70">Nov</span>
+<span class="inline-flex items-center gap-1 text-[9px] text-brand-ruby mt-1 font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-ruby"></span>
+            1 libre
+          </span>
+</button>
+<!-- Day 6 (Closed) -->
+<div class="bg-neutral-100/60 rounded-lg p-3 text-center flex flex-col items-center justify-center opacity-60 cursor-not-allowed">
+<span class="text-[9px] uppercase tracking-wider font-medium text-neutral-400">Dom</span>
+<span class="text-xl font-serif-luxury font-bold text-neutral-400 leading-tight">23</span>
+<span class="text-[10px] text-neutral-400">Nov</span>
+<span class="text-[9px] text-neutral-400 mt-1">Cerrado</span>
+</div>
+<!-- Day 7 -->
+<button class="bg-neutral-50 hover:bg-neutral-100 border border-neutral-200/80 rounded-lg p-3 text-center flex flex-col items-center justify-center transition-all" type="button">
+<span class="text-[9px] uppercase tracking-wider font-medium text-neutral-500">Lun</span>
+<span class="text-xl font-serif-luxury font-bold text-neutral-800 leading-tight">24</span>
+<span class="text-[10px] text-neutral-400">Nov</span>
+<span class="text-[9px] text-neutral-500 mt-1">• 9 slots</span>
+</button>
+</div>
+</section>
+<!-- END: CalendarWeekStrip -->
+<!-- BEGIN: TwoColumnSplitLayout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- BEGIN: LeftColumn (Slots & Services Catalog) -->
+<div class="lg:col-span-8 space-y-10" data-purpose="services-timeline-catalog">
+<!-- ================= TURNO MATINAL ================= -->
+<div class="space-y-4">
+<!-- Session Group Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="5" stroke-width="1.8"></circle>
+<path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke-linecap="round" stroke-width="1.8"></path>
+</svg>
+<div>
+<h2 class="text-lg font-serif-luxury font-bold text-brand-charcoal">Turno Matinal</h2>
+<p class="text-xs text-neutral-500">Franja matinal exclusiva: 10:00 – 14:00 • Luz natural cenital</p>
+</div>
+</div>
+<span class="text-[10px] font-bold tracking-wider uppercase bg-[#EAE5DC] text-neutral-700 px-2.5 py-1 rounded-full">
+              3 Experiencias Disponibles
+            </span>
+</div>
+<!-- Cards Stack -->
+<div class="space-y-3.5">
+<!-- Turno Matinal Card 1 -->
+<article class="bg-white rounded-xl border border-brand-borderLight p-5 hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+<!-- Slot Time & Sanitization Buffer -->
+<div class="sm:w-32 flex-shrink-0">
+<span class="text-2xl sm:text-3xl font-serif-luxury font-bold text-brand-charcoal block leading-none">10:30</span>
+<span class="text-xs text-neutral-500 block mt-1 font-medium">45 min sesión</span>
+<span class="inline-flex items-center gap-1 text-[11px] text-neutral-400 mt-0.5">
+<svg class="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    +15m sanitización
+                  </span>
+</div>
+<!-- Service Description & Tags -->
+<div class="flex-1 space-y-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="text-[9px] uppercase tracking-wider font-semibold bg-[#F5EFE6] text-neutral-700 px-2 py-0.5 rounded">Estilismo &amp; Damas</span>
+<span class="text-[9px] text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded">Presencial • Cabina Privée 2</span>
+<span class="inline-flex items-center gap-1 text-[9px] font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200/50">
+<span class="w-1 h-1 rounded-full bg-amber-600"></span> 2 plazas libres
+                    </span>
+</div>
+<h3 class="text-base font-serif-luxury font-bold text-brand-charcoal group-hover:text-brand-gold transition-colors">
+                    Corte Haute Couture &amp; Brushing
+                  </h3>
+<p class="text-xs text-neutral-600 line-clamp-2 leading-relaxed">
+                    Lavado sensorial con elixir botánico personalizado, diagnóstico morfo-capilar, corte arquitectónico con tijera japonesa y peinado de alta duración.
+                  </p>
+<a class="inline-flex items-center gap-1 text-xs font-semibold text-neutral-700 hover:text-brand-gold transition-colors pt-1" href="#">
+                    Detalle del ritual &amp; protocolo <span class="text-brand-gold">→</span>
+</a>
+</div>
+<!-- Price & Action CTA -->
+<div class="sm:text-right flex sm:flex-col justify-between items-center sm:items-end gap-2 sm:w-28 flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
+<div>
+<span class="text-xl font-serif-luxury font-bold text-brand-charcoal">65 €</span>
+<span class="text-[10px] text-neutral-400 block -mt-1">IVA incluido</span>
+</div>
+<button class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-brand-charcoal hover:bg-neutral-800 text-white text-xs font-medium tracking-wider uppercase rounded-md transition-all" type="button">
+<span>RESERVAR</span>
+<svg class="w-3 h-3 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</article>
+<!-- Turno Matinal Card 2 -->
+<article class="bg-white rounded-xl border border-brand-borderLight p-5 hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+<div class="sm:w-32 flex-shrink-0">
+<span class="text-2xl sm:text-3xl font-serif-luxury font-bold text-brand-charcoal block leading-none">11:45</span>
+<span class="text-xs text-neutral-500 block mt-1 font-medium">40 min sesión</span>
+<span class="inline-flex items-center gap-1 text-[11px] text-neutral-400 mt-0.5">
+<svg class="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    +10m sanitización
+                  </span>
+</div>
+<div class="flex-1 space-y-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="text-[9px] uppercase tracking-wider font-semibold bg-[#F5EFE6] text-neutral-700 px-2 py-0.5 rounded">Barbería &amp; Barba</span>
+<span class="text-[9px] text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded">Sillón Belmont Executive</span>
+<span class="inline-flex items-center gap-1 text-[9px] font-medium text-brand-ruby bg-brand-rubySoft px-2 py-0.5 rounded border border-brand-ruby/20">
+<span class="w-1 h-1 rounded-full bg-brand-ruby"></span> Última plaza
+                    </span>
+</div>
+<h3 class="text-base font-serif-luxury font-bold text-brand-charcoal group-hover:text-brand-gold transition-colors">
+                    Ritual Barbería Gentleman &amp; Barba Esculpida
+                  </h3>
+<p class="text-xs text-neutral-600 line-clamp-2 leading-relaxed">
+                    Corte de cabello a peine y tijera, diseño de contornos de barba a navaja con bálsamo de cedro y eucalipto, toalla aromaterapéutica caliente.
+                  </p>
+<a class="inline-flex items-center gap-1 text-xs font-semibold text-neutral-700 hover:text-brand-gold transition-colors pt-1" href="#">
+                    Detalle del ritual &amp; protocolo <span class="text-brand-gold">→</span>
+</a>
+</div>
+<div class="sm:text-right flex sm:flex-col justify-between items-center sm:items-end gap-2 sm:w-28 flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
+<div>
+<span class="text-xl font-serif-luxury font-bold text-brand-charcoal">42 €</span>
+<span class="text-[10px] text-neutral-400 block -mt-1">IVA incluido</span>
+</div>
+<button class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-brand-charcoal hover:bg-neutral-800 text-white text-xs font-medium tracking-wider uppercase rounded-md transition-all" type="button">
+<span>RESERVAR</span>
+<svg class="w-3 h-3 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</article>
+<!-- Turno Matinal Card 3 -->
+<article class="bg-white rounded-xl border border-brand-borderLight p-5 hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+<div class="sm:w-32 flex-shrink-0">
+<span class="text-2xl sm:text-3xl font-serif-luxury font-bold text-brand-charcoal block leading-none">13:00</span>
+<span class="text-xs text-neutral-500 block mt-1 font-medium">90 min sesión</span>
+<span class="inline-flex items-center gap-1 text-[11px] text-neutral-400 mt-0.5">
+<svg class="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    +15m sanitización
+                  </span>
+</div>
+<div class="flex-1 space-y-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="text-[9px] uppercase tracking-wider font-semibold bg-[#F5EFE6] text-neutral-700 px-2 py-0.5 rounded">Coloración Magistral</span>
+<span class="text-[9px] text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded">Laboratorio Color Atelier</span>
+<span class="inline-flex items-center gap-1 text-[9px] font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200/50">
+<span class="w-1 h-1 rounded-full bg-amber-600"></span> 1 plaza libre
+                    </span>
+</div>
+<h3 class="text-base font-serif-luxury font-bold text-brand-charcoal group-hover:text-brand-gold transition-colors">
+                    Balayage Sublime &amp; Matización Oro Puro
+                  </h3>
+<p class="text-xs text-neutral-600 line-clamp-2 leading-relaxed">
+                    Aclarado gradual artesanal al aire libre, sin demarcaciones, sellado molecular con gloss de brillo espejo y mascarilla de queratina vegetal pura.
+                  </p>
+<a class="inline-flex items-center gap-1 text-xs font-semibold text-neutral-700 hover:text-brand-gold transition-colors pt-1" href="#">
+                    Detalle del ritual &amp; protocolo <span class="text-brand-gold">→</span>
+</a>
+</div>
+<div class="sm:text-right flex sm:flex-col justify-between items-center sm:items-end gap-2 sm:w-28 flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
+<div>
+<span class="text-xl font-serif-luxury font-bold text-brand-charcoal">145 €</span>
+<span class="text-[10px] text-neutral-400 block -mt-1">IVA incluido</span>
+</div>
+<button class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-brand-charcoal hover:bg-neutral-800 text-white text-xs font-medium tracking-wider uppercase rounded-md transition-all" type="button">
+<span>RESERVAR</span>
+<svg class="w-3 h-3 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- ================= TURNO TARDE & RITUAL CREPÚSCULO ================= -->
+<div class="space-y-4 pt-4">
+<!-- Session Group Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+</svg>
+<div>
+<h2 class="text-lg font-serif-luxury font-bold text-brand-charcoal">Turno Tarde &amp; Ritual Crepúsculo</h2>
+<p class="text-xs text-neutral-500">Atmósfera relajante: 16:00 – 20:30 • Iluminación tenue y música binaural</p>
+</div>
+</div>
+<span class="text-[10px] font-bold tracking-wider uppercase bg-[#EAE5DC] text-neutral-700 px-2.5 py-1 rounded-full">
+              3 Experiencias Disponibles
+            </span>
+</div>
+<!-- Cards Stack -->
+<div class="space-y-3.5">
+<!-- Turno Tarde Card 4 -->
+<article class="bg-white rounded-xl border border-brand-borderLight p-5 hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+<div class="sm:w-32 flex-shrink-0">
+<span class="text-2xl sm:text-3xl font-serif-luxury font-bold text-brand-charcoal block leading-none">16:00</span>
+<span class="text-xs text-neutral-500 block mt-1 font-medium">35 min sesión</span>
+<span class="inline-flex items-center gap-1 text-[11px] text-neutral-400 mt-0.5">
+<svg class="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    +10m sanitización
+                  </span>
+</div>
+<div class="flex-1 space-y-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="text-[9px] uppercase tracking-wider font-semibold bg-[#F5EFE6] text-neutral-700 px-2 py-0.5 rounded">Junior Care Atelier</span>
+<span class="text-[9px] text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded">Hasta 12 años</span>
+<span class="inline-flex items-center gap-1 text-[9px] font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200/50">
+<span class="w-1 h-1 rounded-full bg-emerald-600"></span> 3 plazas libres
+                    </span>
+</div>
+<h3 class="text-base font-serif-luxury font-bold text-brand-charcoal group-hover:text-brand-gold transition-colors">
+                    Corte Niño / Niña Atelier
+                  </h3>
+<p class="text-xs text-neutral-600 line-clamp-2 leading-relaxed">
+                    Adaptación amable y sin estrés para los pequeños de la casa. Cosmética orgánica ultra-suave sin sulfatos ni perfumes sintéticos.
+                  </p>
+<a class="inline-flex items-center gap-1 text-xs font-semibold text-neutral-700 hover:text-brand-gold transition-colors pt-1" href="#">
+                    Detalle del ritual &amp; protocolo <span class="text-brand-gold">→</span>
+</a>
+</div>
+<div class="sm:text-right flex sm:flex-col justify-between items-center sm:items-end gap-2 sm:w-28 flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
+<div>
+<span class="text-xl font-serif-luxury font-bold text-brand-charcoal">28 €</span>
+<span class="text-[10px] text-neutral-400 block -mt-1">IVA incluido</span>
+</div>
+<button class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-brand-charcoal hover:bg-neutral-800 text-white text-xs font-medium tracking-wider uppercase rounded-md transition-all" type="button">
+<span>RESERVAR</span>
+<svg class="w-3 h-3 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</article>
+<!-- Turno Tarde Card 5 -->
+<article class="bg-white rounded-xl border border-brand-borderLight p-5 hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+<div class="sm:w-32 flex-shrink-0">
+<span class="text-2xl sm:text-3xl font-serif-luxury font-bold text-brand-charcoal block leading-none">17:30</span>
+<span class="text-xs text-neutral-500 block mt-1 font-medium">50 min sesión</span>
+<span class="inline-flex items-center gap-1 text-[11px] text-neutral-400 mt-0.5">
+<svg class="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    +10m sanitización
+                  </span>
+</div>
+<div class="flex-1 space-y-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="text-[9px] uppercase tracking-wider font-semibold bg-[#F5EFE6] text-neutral-700 px-2 py-0.5 rounded">Tratamientos &amp; Spa</span>
+<span class="text-[9px] text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded">Cabina Head Spa Shiatsu</span>
+<span class="inline-flex items-center gap-1 text-[9px] font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200/50">
+<span class="w-1 h-1 rounded-full bg-amber-600"></span> 2 plazas libres
+                    </span>
+</div>
+<h3 class="text-base font-serif-luxury font-bold text-brand-charcoal group-hover:text-brand-gold transition-colors">
+                    Spa Capilar &amp; Masaje Craneal Bio
+                  </h3>
+<p class="text-xs text-neutral-600 line-clamp-2 leading-relaxed">
+                    Dermo-exfoliación celular con barro termal volcánico, vapor de ozono y 25 minutos de masaje craneal digitopuntural relajante con aceites de flor de loto.
+                  </p>
+<a class="inline-flex items-center gap-1 text-xs font-semibold text-neutral-700 hover:text-brand-gold transition-colors pt-1" href="#">
+                    Detalle del ritual &amp; protocolo <span class="text-brand-gold">→</span>
+</a>
+</div>
+<div class="sm:text-right flex sm:flex-col justify-between items-center sm:items-end gap-2 sm:w-28 flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
+<div>
+<span class="text-xl font-serif-luxury font-bold text-brand-charcoal">55 €</span>
+<span class="text-[10px] text-neutral-400 block -mt-1">IVA incluido</span>
+</div>
+<button class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-brand-charcoal hover:bg-neutral-800 text-white text-xs font-medium tracking-wider uppercase rounded-md transition-all" type="button">
+<span>RESERVAR</span>
+<svg class="w-3 h-3 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</article>
+<!-- Turno Tarde Card 6 -->
+<article class="bg-white rounded-xl border border-brand-borderLight p-5 hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+<div class="sm:w-32 flex-shrink-0">
+<span class="text-2xl sm:text-3xl font-serif-luxury font-bold text-brand-charcoal block leading-none">18:45</span>
+<span class="text-xs text-neutral-500 block mt-1 font-medium">35 min sesión</span>
+<span class="inline-flex items-center gap-1 text-[11px] text-neutral-400 mt-0.5">
+<svg class="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    +10m sanitización
+                  </span>
+</div>
+<div class="flex-1 space-y-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="text-[9px] uppercase tracking-wider font-semibold bg-[#F5EFE6] text-neutral-700 px-2 py-0.5 rounded">Barbería &amp; Barba</span>
+<span class="text-[9px] text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded">Cabina Privée 1</span>
+<span class="inline-flex items-center gap-1 text-[9px] font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200/50">
+<span class="w-1 h-1 rounded-full bg-emerald-600"></span> Disponible
+                    </span>
+</div>
+<h3 class="text-base font-serif-luxury font-bold text-brand-charcoal group-hover:text-brand-gold transition-colors">
+                    Afeitado Tradicional Navaja Japonesa &amp; Toalla Caliente
+                  </h3>
+<p class="text-xs text-neutral-600 line-clamp-2 leading-relaxed">
+                    Preparación previa con espuma tibia batida a mano en cuenco de nogal, doble pase milimétrico a navaja Feather y loción astringente de agua de rosas.
+                  </p>
+<a class="inline-flex items-center gap-1 text-xs font-semibold text-neutral-700 hover:text-brand-gold transition-colors pt-1" href="#">
+                    Detalle del ritual &amp; protocolo <span class="text-brand-gold">→</span>
+</a>
+</div>
+<div class="sm:text-right flex sm:flex-col justify-between items-center sm:items-end gap-2 sm:w-28 flex-shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
+<div>
+<span class="text-xl font-serif-luxury font-bold text-brand-charcoal">38 €</span>
+<span class="text-[10px] text-neutral-400 block -mt-1">IVA incluido</span>
+</div>
+<button class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-brand-charcoal hover:bg-neutral-800 text-white text-xs font-medium tracking-wider uppercase rounded-md transition-all" type="button">
+<span>RESERVAR</span>
+<svg class="w-3 h-3 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<!-- END: LeftColumn -->
+<!-- BEGIN: RightColumn (Sticky Assist & Conversion Panel) -->
+<aside class="lg:col-span-4 space-y-5 lg:sticky lg:top-24" data-purpose="sticky-booking-assist-sidebar">
+<!-- Widget 1: Maestra en Residencia -->
+<div class="bg-white rounded-xl border border-brand-borderLight p-4 shadow-sm space-y-3">
+<div class="flex items-center gap-3">
+<div class="relative">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-neutral-200 border-2 border-brand-gold/40 flex items-center justify-center text-xs font-serif font-bold text-neutral-700">
+                MN
+              </div>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-emerald-500 border-2 border-white flex items-center justify-center text-[8px] text-white">✓</span>
+</div>
+<div>
+<span class="text-[9px] uppercase tracking-wider font-bold text-brand-gold block">Maestra en Residencia</span>
+<h4 class="text-sm font-serif-luxury font-bold text-brand-charcoal">Mabel Novac &amp; Equipo</h4>
+<p class="text-[11px] text-neutral-500">Dirección Artística • Castellana 88</p>
+</div>
+</div>
+<div class="bg-[#FAF7F2] rounded-lg p-2.5 border border-brand-gold/20 flex items-start gap-2">
+<svg class="w-4 h-4 text-brand-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<p class="text-[11px] text-neutral-700 leading-tight">
+<strong class="font-semibold text-brand-charcoal">Diagnóstico capilar de cortesía</strong> (15 min) incluido en cada cita presencial antes de iniciar el servicio.
+            </p>
+</div>
+</div>
+<!-- Widget 2: Resumen de Reserva (Checkout 1-Paso Frictionless) -->
+<div class="bg-brand-charcoal text-white rounded-xl p-5 shadow-xl space-y-5 border border-neutral-800">
+<!-- Card Header -->
+<div class="flex items-center justify-between border-b border-neutral-800 pb-3">
+<div class="flex items-center gap-2">
+<svg class="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<h3 class="text-sm font-serif-luxury font-bold tracking-wide">Resumen de Reserva</h3>
+</div>
+<span class="text-[9px] uppercase tracking-wider bg-neutral-800 text-neutral-300 px-2 py-0.5 rounded font-mono font-medium">1 PASO</span>
+</div>
+<!-- Selected Service Details -->
+<div class="bg-brand-darkCard rounded-lg p-3.5 space-y-2 border border-neutral-800">
+<div class="flex items-start justify-between gap-2">
+<h4 class="text-xs font-serif-luxury font-bold text-neutral-100">Corte Haute Couture &amp; Brushing</h4>
+<span class="text-sm font-serif-luxury font-bold text-brand-gold">65 €</span>
+</div>
+<div class="space-y-1 text-[11px] text-neutral-400">
+<div class="flex items-center gap-1.5">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Hoy Martes 18 Nov • 10:30</span>
+</div>
+<div class="flex items-center gap-1.5">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Castellana Luxury • Cabina Privée</span>
+</div>
+</div>
+</div>
+<!-- Passwordless Form Fields -->
+<form class="space-y-3" onsubmit="event.preventDefault();">
+<div>
+<label class="block text-[10px] uppercase font-bold tracking-wider text-neutral-400 mb-1">
+                Teléfono Móvil (Enlace Mágico de Acceso)
+              </label>
+<div class="relative">
+<span class="absolute inset-y-0 left-0 pl-2.5 flex items-center text-neutral-500 text-xs">
+<svg class="w-3.5 h-3.5 text-neutral-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</span>
+<input class="w-full pl-8 pr-3 py-2 bg-neutral-900/90 border border-neutral-700 rounded-md text-xs text-neutral-200 placeholder:text-neutral-600 focus:outline-none focus:ring-1 focus:ring-brand-gold focus:border-brand-gold" type="tel" value="+34 600 000 000"/>
+</div>
+</div>
+<div>
+<label class="block text-[10px] uppercase font-bold tracking-wider text-neutral-400 mb-1">
+                Correo Electrónico Para Confirmación
+              </label>
+<div class="relative">
+<span class="absolute inset-y-0 left-0 pl-2.5 flex items-center text-neutral-500 text-xs">
+<svg class="w-3.5 h-3.5 text-neutral-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</span>
+<input class="w-full pl-8 pr-3 py-2 bg-neutral-900/90 border border-neutral-700 rounded-md text-xs text-neutral-200 placeholder:text-neutral-600 focus:outline-none focus:ring-1 focus:ring-brand-gold focus:border-brand-gold" type="email" value="cliente@privilege.com"/>
+</div>
+</div>
+<button class="w-full py-3 bg-[#A47E1B] hover:bg-[#8D6B14] text-white font-medium text-xs tracking-wider uppercase rounded-md shadow-md transition-all flex items-center justify-center gap-1.5 mt-2" type="button">
+<span>CONFIRMAR CITA INSTANTÁNEA</span>
+<svg class="w-3.5 h-3.5 text-neutral-200" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</form>
+<p class="text-[10px] text-center text-neutral-400 italic">
+            Pago presencial en el atelier tras su servicio. Sin cargo por reserva previa.
+          </p>
+</div>
+<!-- Widget 3: Garantía Frictionless 4.0 -->
+<div class="bg-white rounded-xl border border-brand-borderLight p-4 shadow-sm space-y-3.5 text-xs text-neutral-600">
+<div class="flex items-center gap-2 text-brand-charcoal">
+<svg class="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<h4 class="font-serif-luxury font-bold">Garantía Frictionless 4.0</h4>
+</div>
+<ul class="space-y-2.5 text-[11px] leading-relaxed">
+<li class="flex items-start gap-2">
+<svg class="w-3.5 h-3.5 text-neutral-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 004 11a7.96 7.96 0 001.218 4.225" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span><strong class="text-neutral-800">Cero contraseñas requeridas:</strong> Reserva segura únicamente con teléfono y correo electrónico verificado.</span>
+</li>
+<li class="flex items-start gap-2">
+<svg class="w-3.5 h-3.5 text-neutral-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span><strong class="text-neutral-800">Enlace Mágico instantáneo:</strong> Reprograme o cancele con 1 clic sin penalización hasta 20 min antes.</span>
+</li>
+<li class="flex items-start gap-2">
+<svg class="w-3.5 h-3.5 text-neutral-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span><strong class="text-neutral-800">Cero esperas en sala:</strong> Algoritmo con colchón de 15 min de sanitización entre citas sucesivas.</span>
+</li>
+</ul>
+<div class="pt-2 border-t border-neutral-100 flex items-center justify-between text-[10px] text-neutral-400">
+<span>Auditoría de Higiene UNE 171330</span>
+<span class="inline-flex items-center gap-1 font-medium text-emerald-600">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Protocolo Activo
+            </span>
+</div>
+</div>
+</aside>
+<!-- END: RightColumn -->
+</div>
+<!-- END: TwoColumnSplitLayout -->
+</main>
+<!-- END: MainContent -->
+<!-- BEGIN: SiteFooter -->
+<footer class="bg-white border-t border-brand-borderLight mt-16 pt-12 pb-8 text-neutral-600 text-xs">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+<!-- 4 Columns Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Col 1: Mabel Novac Manifest -->
+<div class="space-y-3">
+<div class="flex items-center gap-2">
+<span class="text-xs font-bold tracking-[0.2em] uppercase text-brand-charcoal font-serif-luxury">Mabel Novac</span>
+</div>
+<p class="text-[11px] text-neutral-500 leading-relaxed">
+            Sanctuary de alta peluquería, arquitectura capilar y rituales botánicos de autor concebidos bajo el canon de la elegancia atemporal.
+          </p>
+<div class="pt-2">
+<span class="inline-flex items-center gap-1.5 text-[10px] font-bold tracking-wider uppercase text-brand-gold">
+<span class="w-2 h-2 rounded-full bg-brand-gold"></span>
+              Reserva Concierge Prioritaria
+            </span>
+</div>
+</div>
+<!-- Col 2: Ateliers & Sedes -->
+<div class="space-y-3">
+<h4 class="text-xs font-serif-luxury font-bold uppercase tracking-wider text-brand-charcoal">Ateliers &amp; Sedes</h4>
+<div class="space-y-2 text-[11px]">
+<div>
+<p class="font-semibold text-neutral-800">Atelier Salamanca</p>
+<p class="text-neutral-500">Calle Serrano 48, Madrid</p>
+<p class="text-[10px] text-neutral-400">Lun – Sáb: 09:30 – 20:30</p>
+</div>
+<div>
+<p class="font-semibold text-neutral-800">Atelier Paseo de Gracia</p>
+<p class="text-neutral-500">Passeig de Gràcia 76, Barcelona</p>
+<p class="text-[10px] text-neutral-400">Lun – Sáb: 10:00 – 21:00</p>
+</div>
+</div>
+</div>
+<!-- Col 3: Compromiso Privé -->
+<div class="space-y-3">
+<h4 class="text-xs font-serif-luxury font-bold uppercase tracking-wider text-brand-charcoal">Compromiso Privé</h4>
+<div class="bg-neutral-50 rounded-lg p-3 border border-neutral-100 space-y-2 text-[11px]">
+<div class="flex items-center gap-1.5 text-brand-gold font-medium">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Garantía de Sesión Exclusiva</span>
+</div>
+<p class="text-[10px] text-neutral-500">
+              Modificaciones y reprogramaciones concierge sin penalización hasta 12 horas antes de su cita.
+            </p>
+<div class="pt-1 flex items-center gap-1 text-[10px] text-neutral-700">
+<span class="text-brand-gold font-bold">✧</span>
+<span>Diagnóstico Capilar Incluido</span>
+</div>
+</div>
+</div>
+<!-- Col 4: Concierge & Contacto -->
+<div class="space-y-3">
+<h4 class="text-xs font-serif-luxury font-bold uppercase tracking-wider text-brand-charcoal">Concierge &amp; Contacto</h4>
+<ul class="space-y-2 text-[11px]">
+<li class="flex items-center gap-2 text-neutral-700">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>+34 910 882 140</span>
+</li>
+<li class="flex items-center gap-2 text-neutral-700">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>concierge@mabelnovac.com</span>
+</li>
+<li class="flex items-center gap-2 text-[10px] text-neutral-500 pt-1">
+<svg class="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Atención Personal 24/7 Clientes Oro</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Legal Sub-Bar -->
+<div class="pt-6 border-t border-neutral-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-neutral-400">
+<p>© 2025 Mabel Novac Goddess Haute Atelier. Todos los derechos reservados.</p>
+<div class="flex items-center gap-4">
+<a class="hover:text-neutral-600 transition-colors" href="#">Privacidad &amp; Datos</a>
+<a class="hover:text-neutral-600 transition-colors" href="#">Términos del Atelier</a>
+<a class="hover:text-neutral-600 transition-colors" href="#">Protocolo Higiénico &amp; Seguridad</a>
+<a class="hover:text-neutral-600 transition-colors" href="#">Aviso Legal</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: SiteFooter -->
+<!-- Interactivity Script (Booking selection handling) -->
+<script data-purpose="appointment-interactions">
+    document.addEventListener('DOMContentLoaded', () => {
+      // Allow selecting day buttons
+      const dayButtons = document.querySelectorAll('[data-purpose="weekly-calendar-selector"] button');
+      dayButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Subtle visual feedback
+          dayButtons.forEach(b => {
+            if (b.classList.contains('bg-brand-charcoal')) {
+              b.classList.remove('bg-brand-charcoal', 'text-white');
+              b.classList.add('bg-neutral-50', 'text-neutral-800');
+            }
+          });
+          btn.classList.remove('bg-neutral-50', 'text-neutral-800');
+          btn.classList.add('bg-brand-charcoal', 'text-white');
+        });
+      });
+    });
+  </script>
+</body></html>
